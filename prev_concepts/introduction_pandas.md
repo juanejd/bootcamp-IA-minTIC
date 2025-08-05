@@ -1,9 +1,8 @@
-import pandas as pd
+# Introduction to Pandas
 
-# s = pd.Series([2, 4, 6, 8, 10])
-# print(s)
+## Creation of series objects
 
-# Serie object creation initialized with a dictionary
+```python
 height = {"Santiago": 180, "Pedro": 170, "Juan": 160, "Maria": 150, "Ana": 140}
 result = pd.Series(height)
 
@@ -13,3 +12,4 @@ print()
 
 s = pd.Series(34, ["test1", "test2", "test3"])
 print(s)
+```
