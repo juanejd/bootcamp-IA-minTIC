@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Predicccion de ahorro solar</title>
+  </head>
+  <body>
+    <form action="/predecir" method="POST">
+      <div style="display: flex; flex-direction: column; gap: 10px; width: 20%">
+        <select name="ubication">
+          <option value="zona_1">Zona 1</option>
+          <option value="zona_2">Zona 2</option>
+          <option value="zona_3">Zona 3</option>
+        </select>
+        <label for="">Tamaño del hogar</label>
+        <input type="number" name="size_house" />
+        <label for="">Costo de instalación</label>
+        <input type="number" name="cost_installation" />
+        <label for="">Energía generada</label>
+        <input type="number" name="energy_generated" />
+        <button type="submit">Predecir</button>
+      </div>
+    </form>
+  </body>
+</html>
