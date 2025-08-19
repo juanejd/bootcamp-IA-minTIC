@@ -43,16 +43,16 @@ def respond(message, history, system_message, max_tokens, temperature, top_p):
     # add conversation history
     for val in history:
         if val[0]:
-            message.append({"role": "user", "content": val[0]})
+            messages.append({"role": "user", "content": val[0]})
         if val[1]:
-            message.append({"role": "assistant", "content": val[1]})
+            messages.append({"role": "assistant", "content": val[1]})
     # add new user message
     messages.append({"role": "user", "content": message})
 
     # convert the conversation in tensors for the model
     input_ids = tokenizer.apply_chat_template(
         messages, add_generation_prompt=True, return_tensors="pt"
-    ).to(device)
+    ).to(model.device)
 
     # define tokens that indicate the end of the response
     terminators = [
@@ -70,12 +70,12 @@ def respond(message, history, system_message, max_tokens, temperature, top_p):
     )
     # transform the response in a string
     response = ""
-    for message in tokenizer.device(
+    for message in tokenizer.decode(
         outputs[0][input_ids.shape[-1] :],  # tomamos solo la respuesta
-        skip_apecial_tokens=True,
+        skip_special_tokens=True,
     ):
         response += message
-        yield respond  # yield para que gradio muestr la respuesta progresivamente
+        yield response  # yield para que gradio muestr la respuesta progresivamente
 
 
 # create chatbot interface

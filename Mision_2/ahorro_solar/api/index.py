@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 import os
 
-app = Flask(__name__, template_folder="../templates")
+app = Flask(__name__, template_folder="../templates", static_folder="../static")
 model = pickle.load(
     open(os.path.join(os.path.dirname(__file__), "../modelos/modelo.pkl"), "rb")
 )
