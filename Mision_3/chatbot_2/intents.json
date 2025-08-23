@@ -1,0 +1,371 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "hola",
+        "buenos dias",
+        "buenas tardes",
+        "buenas",
+        "hey",
+        "que tal",
+        "holi"
+      ],
+      "responses": [
+        "¡Hola! ¿En qué puedo ayudarte?",
+        "¡Hola! ¿Cómo te apoyo hoy?",
+        "¡Hey! ¿Qué necesitas?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["adios", "hasta luego", "nos vemos", "chao", "me voy"],
+      "responses": [
+        "¡Hasta luego! 👋",
+        "¡Chao! Fue un gusto ayudarte.",
+        "¡Nos vemos! ¡Éxitos!"
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": ["gracias", "muchas gracias", "mil gracias"],
+      "responses": ["¡Con gusto! 😊", "¡Para eso estoy!", "¡Me alegra ayudar!"]
+    },
+    {
+      "tag": "horario",
+      "patterns": [
+        "cual es su horario",
+        "a que horas abren",
+        "horarios de atencion",
+        "cuando atienden"
+      ],
+      "responses": [
+        "Lun–Vie 8:00–18:00 .",
+        "Atendemos de lunes a viernes de 8:00 a 18:00 ."
+      ]
+    },
+    {
+      "tag": "precio",
+      "patterns": [
+        "cuanto cuesta",
+        "precio",
+        "tarifas",
+        "cuanto vale",
+        "costos",
+        "planes de precio"
+      ],
+      "responses": [
+        "Tenemos planes desde $19/mes. ¿Qué necesitas exactamente?",
+        "¿Prefieres plan mensual o anual?"
+      ]
+    },
+    {
+      "tag": "soporte",
+      "patterns": [
+        "necesito soporte",
+        "tienen soporte",
+        "ayuda tecnica",
+        "soporte tecnico",
+        "ticket de soporte"
+      ],
+      "responses": [
+        "Escríbenos a soporte@ejemplo.com y te ayudamos.",
+        "Abre un ticket en soporte@ejemplo.com"
+      ]
+    },
+    {
+      "tag": "informacion_empresa",
+      "patterns": [
+        "que es su empresa",
+        "a que se dedican",
+        "sobre la empresa",
+        "informacion de la compania",
+        "quienes son"
+      ],
+      "responses": [
+        "Somos una empresa de tecnología especializada en soluciones digitales.",
+        "Nos dedicamos a brindar servicios tecnológicos innovadores.",
+        "Somos líderes en desarrollo de software y consultoría digital."
+      ]
+    },
+    {
+      "tag": "ubicacion",
+      "patterns": [
+        "donde estan ubicados",
+        "direccion",
+        "donde quedan",
+        "como llegar",
+        "ubicacion fisica"
+      ],
+      "responses": [
+        "Estamos ubicados en el centro de la ciudad.",
+        "Nuestra dirección es Calle Principal 123.",
+        "Puedes encontrarnos en el edificio corporativo del centro."
+      ]
+    },
+    {
+      "tag": "contacto",
+      "patterns": [
+        "como contactarlos",
+        "telefono",
+        "email",
+        "contacto",
+        "como comunicarme"
+      ],
+      "responses": [
+        "Puedes contactarnos al 123-456-7890.",
+        "Escríbenos a info@ejemplo.com",
+        "Llámanos al 123-456-7890 o escribe a info@ejemplo.com"
+      ]
+    },
+    {
+      "tag": "productos",
+      "patterns": [
+        "que productos tienen",
+        "servicios",
+        "que ofrecen",
+        "catalogo",
+        "productos disponibles"
+      ],
+      "responses": [
+        "Ofrecemos desarrollo web, apps móviles y consultoría.",
+        "Nuestros productos incluyen software personalizado y soluciones cloud.",
+        "Tenemos servicios de desarrollo, diseño y consultoría tecnológica."
+      ]
+    },
+    {
+      "tag": "demo",
+      "patterns": [
+        "quiero una demo",
+        "demostración",
+        "prueba gratuita",
+        "trial",
+        "version de prueba"
+      ],
+      "responses": [
+        "¡Perfecto! Te programamos una demo personalizada.",
+        "Agenda tu demo gratuita en nuestro sitio web.",
+        "¿Cuándo te gustaría ver la demostración?"
+      ]
+    },
+    {
+      "tag": "pagos",
+      "patterns": [
+        "formas de pago",
+        "como pagar",
+        "metodos de pago",
+        "tarjetas",
+        "facturacion"
+      ],
+      "responses": [
+        "Aceptamos tarjetas de crédito, débito y transferencias.",
+        "Puedes pagar con Visa, MasterCard o transferencia bancaria.",
+        "Ofrecemos facturación mensual y anual."
+      ]
+    },
+    {
+      "tag": "garantia",
+      "patterns": [
+        "tienen garantia",
+        "garantia del producto",
+        "que garantizan",
+        "politica de garantia"
+      ],
+      "responses": [
+        "Ofrecemos garantía de 30 días en todos nuestros servicios.",
+        "Garantizamos la calidad de nuestro trabajo.",
+        "Tienes 30 días de garantía completa."
+      ]
+    },
+    {
+      "tag": "capacitacion",
+      "patterns": [
+        "ofrecen capacitacion",
+        "entrenamiento",
+        "cursos",
+        "formacion",
+        "training"
+      ],
+      "responses": [
+        "Sí, incluimos capacitación completa con nuestros servicios.",
+        "Ofrecemos cursos de entrenamiento personalizados.",
+        "La capacitación está incluida en todos nuestros planes."
+      ]
+    },
+    {
+      "tag": "actualizaciones",
+      "patterns": [
+        "actualizaciones",
+        "updates",
+        "nuevas versiones",
+        "mejoras",
+        "que hay de nuevo"
+      ],
+      "responses": [
+        "Lanzamos actualizaciones cada mes.",
+        "Siempre estamos mejorando nuestros productos.",
+        "Las actualizaciones son automáticas y gratuitas."
+      ]
+    },
+    {
+      "tag": "seguridad",
+      "patterns": [
+        "es seguro",
+        "seguridad",
+        "proteccion de datos",
+        "privacidad",
+        "cifrado"
+      ],
+      "responses": [
+        "Usamos cifrado de nivel bancario para proteger tus datos.",
+        "La seguridad es nuestra prioridad número uno.",
+        "Cumplimos con todos los estándares de seguridad internacionales."
+      ]
+    },
+    {
+      "tag": "integraciones",
+      "patterns": [
+        "integraciones",
+        "conectar con",
+        "apis",
+        "compatibilidad",
+        "se integra con"
+      ],
+      "responses": [
+        "Nos integramos con más de 100 aplicaciones populares.",
+        "Tenemos APIs abiertas para cualquier integración.",
+        "¿Con qué sistema necesitas integrarte?"
+      ]
+    },
+    {
+      "tag": "equipo",
+      "patterns": [
+        "su equipo",
+        "quienes trabajan",
+        "desarrolladores",
+        "staff",
+        "empleados"
+      ],
+      "responses": [
+        "Tenemos un equipo de 50+ profesionales especializados.",
+        "Nuestro equipo incluye desarrolladores, diseñadores y consultores.",
+        "Trabajamos con los mejores talentos de la industria."
+      ]
+    },
+    {
+      "tag": "experiencia",
+      "patterns": [
+        "cuanta experiencia tienen",
+        "años en el mercado",
+        "trayectoria",
+        "experiencia"
+      ],
+      "responses": [
+        "Tenemos más de 10 años de experiencia en el mercado.",
+        "Hemos trabajado con más de 500 clientes satisfechos.",
+        "Nuestra experiencia abarca una década de innovación."
+      ]
+    },
+    {
+      "tag": "referencias",
+      "patterns": [
+        "referencias",
+        "clientes",
+        "testimonios",
+        "casos de exito",
+        "portfolio"
+      ],
+      "responses": [
+        "Puedes ver nuestros casos de éxito en el sitio web.",
+        "Tenemos referencias de clientes muy satisfechos.",
+        "¿Te gustaría hablar con alguno de nuestros clientes actuales?"
+      ]
+    },
+    {
+      "tag": "tiempo_implementacion",
+      "patterns": [
+        "cuanto tiempo toma",
+        "tiempo de implementacion",
+        "cuando estaria listo",
+        "duracion del proyecto"
+      ],
+      "responses": [
+        "Los proyectos típicos toman entre 2-8 semanas.",
+        "Depende del alcance, pero generalmente 1-2 meses.",
+        "Te damos un cronograma detallado después de evaluar tus necesidades."
+      ]
+    },
+    {
+      "tag": "mantenimiento",
+      "patterns": [
+        "mantenimiento",
+        "soporte continuo",
+        "actualizaciones",
+        "mantenimiento del sistema"
+      ],
+      "responses": [
+        "Ofrecemos planes de mantenimiento mensual.",
+        "El mantenimiento está incluido el primer año.",
+        "Tenemos diferentes niveles de soporte y mantenimiento."
+      ]
+    },
+    {
+      "tag": "cancelacion",
+      "patterns": [
+        "como cancelar",
+        "cancelar servicio",
+        "dar de baja",
+        "terminar contrato"
+      ],
+      "responses": [
+        "Puedes cancelar en cualquier momento sin penalidades.",
+        "La cancelación es simple, solo contáctanos.",
+        "No hay compromisos a largo plazo, cancela cuando quieras."
+      ]
+    },
+    {
+      "tag": "descuentos",
+      "patterns": [
+        "tienen descuentos",
+        "promociones",
+        "ofertas",
+        "descuento",
+        "precio especial"
+      ],
+      "responses": [
+        "Tenemos descuentos para estudiantes y startups.",
+        "Ofrecemos 20% de descuento en planes anuales.",
+        "¿Eres estudiante o startup? Tenemos precios especiales."
+      ]
+    },
+    {
+      "tag": "requisitos",
+      "patterns": [
+        "que necesito",
+        "requisitos",
+        "que se requiere",
+        "prerequisitos"
+      ],
+      "responses": [
+        "Solo necesitas una conexión a internet estable.",
+        "Los requisitos son mínimos, funciona en cualquier dispositivo.",
+        "No necesitas instalar nada, todo es basado en web."
+      ]
+    },
+    {
+      "tag": "idiomas",
+      "patterns": [
+        "en que idiomas",
+        "idiomas disponibles",
+        "español",
+        "ingles",
+        "multiidioma"
+      ],
+      "responses": [
+        "Disponible en español, inglés y portugués.",
+        "Soportamos múltiples idiomas.",
+        "¿En qué idioma prefieres usar nuestro servicio?"
+      ]
+    }
+  ]
+}

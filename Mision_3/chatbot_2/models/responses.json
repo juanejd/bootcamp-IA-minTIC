@@ -1,0 +1,29 @@
+{
+  "saludo": [
+    "¡Hola! ¿En qué puedo ayudarte?",
+    "¡Hola! ¿Cómo te apoyo hoy?",
+    "¡Hey! ¿Qué necesitas?"
+  ],
+  "despedida": [
+    "¡Hasta luego! 👋",
+    "¡Chao! Fue un gusto ayudarte.",
+    "¡Nos vemos! ¡Éxitos!"
+  ],
+  "agradecimiento": [
+    "¡Con gusto! 😊",
+    "¡Para eso estoy!",
+    "¡Me alegra ayudar!"
+  ],
+  "horario": [
+    "Lun–Vie 8:00–18:00 .",
+    "Atendemos de lunes a viernes de 8:00 a 18:00 ."
+  ],
+  "precio": [
+    "Tenemos planes desde $19/mes. ¿Qué necesitas exactamente?",
+    "¿Prefieres plan mensual o anual?"
+  ],
+  "soporte": [
+    "Escríbenos a soporte@ejemplo.com y te ayudamos.",
+    "Abre un ticket en soporte@ejemplo.com"
+  ]
+}
